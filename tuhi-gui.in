@@ -25,7 +25,6 @@ if __name__ == "__main__":
     import gettext
     import locale
 
-    locale.bindtextdomain('tuhi', '@localedir@')
     gettext.bindtextdomain('tuhi', '@localedir@')
 
     from tuhi.gui.application import main
